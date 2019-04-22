@@ -17,8 +17,8 @@ wForm.addEventListener('submit', (e) => {
             if (data.error) {
                 p1.textContent = data.error;
             } else {
-                p1.textContent = `Location: ${data.location}`;
-                p2.textContent = `Weather: ${data.forecastData}`
+                p1.innerHTML = `Location: <b>${data.location}</b>`;
+                p2.innerHTML = `Weather: ${data.forecastData}`
             }
         })
     });
