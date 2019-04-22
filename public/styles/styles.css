@@ -43,3 +43,16 @@ h1 {
     border-radius: 6px;
     box-shadow: 3px 3px 15px #333333;
 }
+
+#address {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    padding: 8px;
+    background: #888888;
+    color: white;
+}
